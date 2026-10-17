@@ -40,8 +40,9 @@
     </section>
     <section>
       <h2>The free seven-day sample</h2>
-      <p>On iPhone, the sample is a free App Store transaction. Its original date is read through RevenueCat so that the same Apple ID gets one sample.</p>
-      <p>On Android, the sample is confirmed by a small access service we operate on Google Cloud. It receives a random installation key, the platform and a signed challenge, and stores only the first activation and expiry of that installation. It never receives your words. Reinstalling the app may create a new installation identity.</p>
+      <p>On iPhone and Android, the sample is confirmed by a small access service we operate on Google Cloud. It receives a random installation ID and public key, the platform and a signed request. It never receives your words.</p>
+      <p>On iPhone, the sample is a free App Store transaction. Our access service reads its original date through RevenueCat so that restoring it does not start another seven days.</p>
+      <p>On Android, our access service stores the first activation time for that installation to calculate when the sample ends. Reinstalling the app may create a new installation identity.</p>
       <p>That service keeps operational logs about requests and errors. They contain no words, names or identifiers tied to your notes.</p>
     </section>
     <section>
