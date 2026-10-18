@@ -35,19 +35,25 @@
     </section>
     <section>
       <h2>Purchases</h2>
-      <p>When you buy full guidance or restore a purchase, Apple or Google processes the payment under their own privacy policies. To confirm your access, Nearstep uses RevenueCat, a purchase-management service. It receives a random app user ID, your purchase receipt or token, the product bought, and basic device and platform information. RevenueCat uses this to confirm entitlements and to report commercial statistics such as the number of purchases. It never receives your words, names or anything about your situation.</p>
+      <p>Apple or Google processes purchases under its own privacy policy. Nearstep uses RevenueCat to check access when the app opens, when you buy and when you restore. RevenueCat receives a pseudonymous app user ID derived from a randomly generated installation key, basic device and platform information, and purchase receipts or tokens when present. Purchase records include the product and transaction dates. They are used to confirm access and report commercial statistics such as purchases. The ID connects these records to an installation, without a Nearstep account, name or email. Neither RevenueCat nor our access service receives your private words or choices.</p>
       <p>Purchase records are kept by the store and by RevenueCat under their retention rules. Deleting your words in Nearstep doesn’t delete a purchase record.</p>
     </section>
     <section>
       <h2>The free seven-day sample</h2>
-      <p>On iPhone and Android, the sample is confirmed by a small access service we operate on Google Cloud. It receives a random installation ID and public key, the platform and a signed request. It never receives your words.</p>
+      <p>On iPhone and Android, the sample is confirmed by a small access service we operate on Google Cloud. It receives a pseudonymous installation ID and public key, the platform and a signed request. The ID is the same one used to check purchase access. Checks can happen when the app opens; they do not start a sample. It never receives your words.</p>
       <p>On iPhone, the sample is a free App Store transaction. Our access service reads its original date through RevenueCat so that restoring it does not start another seven days.</p>
       <p>On Android, our access service stores the first activation time for that installation to calculate when the sample ends. Reinstalling the app may create a new installation identity.</p>
-      <p>That service keeps operational logs about requests and errors. They contain no words, names or identifiers tied to your notes.</p>
+      <p>Google Cloud keeps technical request logs, including IP address, request time, route, status, latency and basic client information. We use them to diagnose failures, protect the service and monitor its operation, not to locate you or advertise to you. Requests never include your notes, preparations or choices.</p>
+    </section>
+    <section>
+      <h2>Retention and deletion</h2>
+      <p>Local records remain until you delete them or remove the app. Purchase records are retained to verify access and restoration, subject to the store and RevenueCat rules. Android sample activation records have no automatic expiry: the original start is kept to prevent another sample for the same installation.</p>
+      <p>Our access service uses seven-day operational log retention and seven-day database backups. Google Cloud mandatory audit logs retain administrative events for 400 days. Request quota counters are eligible for automatic deletion 48 hours after their minute or month window ends; provider deletion can take additional time.</p>
+      <p>Delete all records in Settings removes local content, not store, RevenueCat or access-service records. There is currently no in-app remote deletion control. Contact the support address with privacy questions or requests; do not send your private words. We must verify which technical records belong to you before acting. We explain any records that must remain for access, security or legal obligations. We cannot delete records held independently by Apple or Google.</p>
     </section>
     <section>
       <h2>What we don’t do</h2>
-      <p>No account or sign-in. No analytics or tracking SDKs. No advertising. No reading of your messages, contacts, photos or other apps. No AI processing of your text, on the device or anywhere else.</p>
+      <p>No account or sign-in. No analytics of your private content, advertising or cross-app tracking. Commercial statistics and technical service logs are described above. No reading of your messages, contacts, photos or other apps. No AI processing of your text, on the device or anywhere else.</p>
     </section>
     <section>
       <h2>Device loss and backups</h2>
