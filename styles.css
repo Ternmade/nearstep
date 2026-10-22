@@ -48,6 +48,17 @@ p { margin: 0 0 12px; }
 .meta { color: var(--muted); font-size: 0.95rem; }
 section { padding-top: 4px; }
 a { color: var(--ink); }
+.store {
+  display: inline-block;
+  margin: 8px 0 4px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
+  text-decoration: none;
+}
+.store:hover { filter: brightness(1.2); }
 a:focus-visible { outline: 3px solid var(--butter); outline-offset: 2px; }
 footer {
   border-top: 1px solid var(--line);
