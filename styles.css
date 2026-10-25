@@ -40,6 +40,8 @@ nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.95rem; }
 nav a { color: var(--muted); text-decoration: none; padding: 6px 0; }
 nav a[aria-current="page"] { color: var(--ink); border-bottom: 2px solid var(--ink); }
 nav a:hover, nav a:focus-visible { color: var(--ink); }
+.languages { max-width: 40rem; margin: 0 auto; padding: 8px 16px 0; gap: 4px 16px; }
+nav a { display: inline-flex; align-items: center; min-height: 44px; }
 main { padding-top: 28px; padding-bottom: 40px; }
 h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 12px; }
 h2 { font-size: 1.15rem; margin: 28px 0 8px; }
@@ -59,7 +61,7 @@ a { color: var(--ink); }
   text-decoration: none;
 }
 .store:hover { filter: brightness(1.2); }
-a:focus-visible { outline: 3px solid var(--butter); outline-offset: 2px; }
+a:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 footer {
   border-top: 1px solid var(--line);
   padding-top: 16px;
