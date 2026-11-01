@@ -50,9 +50,9 @@ p { margin: 0 0 12px; }
 .meta { color: var(--muted); font-size: 0.95rem; }
 section { padding-top: 4px; }
 a { color: var(--ink); }
+.stores { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 16px; }
 .store {
   display: inline-block;
-  margin: 8px 0 4px;
   padding: 12px 22px;
   border-radius: 999px;
   background: var(--ink);
