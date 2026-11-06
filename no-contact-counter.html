@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No Contact Counter Online — Free, No Account · Nearstep</title>
+  <meta name="description" content="A free no-contact counter that runs in your browser. Start from now, without an account. Also available in Nearstep for iPhone and Android.">
+  <meta name="color-scheme" content="light">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="search.css">
+  <link rel="canonical" href="https://ternmade.com/nearstep/no-contact-counter.html">
+
+</head>
+<body>
+  <header>
+    <a class="wordmark" href="index.html">nearstep</a>
+    <nav aria-label="Pages">
+      <a hreflang="en" lang="en" href="index.html">Nearstep</a>
+      <a hreflang="en" lang="en" href="support.html">Support</a>
+      <a hreflang="en" lang="en" href="privacy.html">Privacy</a>
+      <a hreflang="en" lang="en" href="terms.html">Terms of use</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Your no-contact counter, right here.</h1>
+    <p class="lead">Keep track of the space you chose. Free, with no account.</p>
+    
+    <section class="web-counter" data-counter aria-labelledby="counter-title">
+      <h2 id="counter-title">Time since you started this count</h2>
+      <p>Days · hours:minutes:seconds</p>
+      <output aria-labelledby="counter-title" aria-live="off">Not started</output>
+      <p role="status">Start when you choose. No account needed.</p>
+      <button type="button" data-start>Start from now</button>
+      <button type="button" data-clear hidden>Clear this browser count</button>
+      <div data-confirmation hidden>
+        <p>Clear only this browser’s saved count? This cannot change any records in the app.</p>
+        <button type="button" data-cancel>Keep counting</button>
+        <button type="button" data-confirm>Clear the browser count</button>
+      </div>
+    </section>
+    <noscript><p>This counter needs JavaScript. You can still read this page and use the store links below.</p></noscript>
+    <p>Your chosen start is stored only in this browser, when storage is available. It is not sent to Ternmade, and it does not sync with the app. Clearing browser data can remove it.</p>
+    <section>
+      <h2>What does “no contact” mean here?</h2>
+      <p>You choose the boundary. A count does not decide whether a conversation is necessary, and it does not measure your recovery. Shared responsibilities, work and safety still matter.</p>
+      <p>If you want a fresh count here, clear it and start again. In the Nearstep app, logging that you reached out or replied restarts the current count while keeping your history. Necessary contact does not restart the app’s count.</p>
+    </section>
+    <section>
+      <h2>More than a number</h2>
+      <p>The app adds a free ten-minute pause before texting, private unsent words, a Home Screen widget and skies to keep. Optional Plus plans help you prepare before a hard moment; Plus is one purchase, with no subscription or trial.</p>
+      <p>Need help right now? <a href="dont-text-your-ex.html">Take a pause before texting your ex.</a></p>
+    </section>
+
+    <section>
+      <h2>Find Nearstep on your phone</h2>
+      <div class="stores">
+        
+        <a class="store" href="https://apps.apple.com/app/apple-store/id6822081260?pt=129469757&amp;ct=search_counter&amp;mt=8">Download on the App Store</a>
+        <a class="store" href="https://play.google.com/store/apps/details?id=com.ternmade.nearstep&amp;referrer=utm_source%3Dsearch_counter%26utm_medium%3Dweb%26utm_campaign%3Dsearch_counter">Get it on Google Play</a>
+      </div>
+      <p>App interface: English, Portuguese, Spanish, French, German and Italian.</p>
+    </section>
+    <script type="module" src="counter.mjs"></script>
+  </main>
+  <footer>
+    <p>Nearstep · Ternmade · Updated 5 November 2026</p>
+  </footer>
+</body>
+</html>

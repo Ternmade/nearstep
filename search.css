@@ -1,0 +1,6 @@
+.web-counter { padding: clamp(16px, 4vw, 28px); border: 1px solid #987c88; border-radius: 20px; background: #fffdf9; }
+.web-counter output { display: block; font-size: clamp(1.4rem, 5vw, 2.4rem); font-weight: 650; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.web-counter button { font: inherit; font-weight: 600; min-height: 48px; max-width: 100%; padding: 12px 20px; margin: 8px 8px 0 0; color: #fbf7f2; background: #4e293a; border: 2px solid #4e293a; border-radius: 14px; cursor: pointer; }
+.web-counter button:focus-visible { outline: 3px solid #4e293a; outline-offset: 4px; }
+.web-counter [data-confirmation] { margin-top: 24px; padding-top: 8px; border-top: 1px solid #987c88; }
+[hidden] { display: none !important; }
